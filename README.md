@@ -31,7 +31,7 @@ Lambda (Python — RAG handler)
 
 ## The Four Phases
 
-### Phase 1 — Deploy Insecure ✅ (In Progress)
+### Phase 1 — Deploy an Insecure system ✅ (In Progress)
 Deploy a functional RAG application with intentional security gaps:
 - S3 bucket with no explicit encryption enforcement or public access block
 - IAM Lambda execution role with overpermissive `Resource: *` policies
