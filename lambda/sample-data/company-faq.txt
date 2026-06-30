@@ -1,0 +1,13 @@
+Company FAQ
+
+Q: What are your business hours?
+A: We are open Monday through Friday, 9 AM to 5 PM EST.
+
+Q: How do I reset my password?
+A: Visit the account settings page and click "Forgot Password" to receive a reset link via email.
+
+Q: What is your refund policy?
+A: Refunds are processed within 5-7 business days for purchases made within the last 30 days.
+
+Q: How do I contact support?
+A: Email support@example.com or use the live chat feature on our website.
