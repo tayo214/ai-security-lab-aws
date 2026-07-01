@@ -9,16 +9,19 @@ certification, mapped to OWASP Top 10 for LLMs, MITRE ATLAS, and NIST AI RMF.
 ---
 
 ## Architecture
+
+```
 User (curl/Postman)
-│
-▼
-API Gateway (REST API)
-│
-▼
-Lambda (Python — RAG handler)
-│
-├──► S3 (knowledge base documents)
-└──► Amazon Bedrock (Claude 3 Haiku)
+       │
+       ▼
+  API Gateway (REST API)
+       │
+       ▼
+  Lambda (Python — RAG handler)
+       │
+       ├──► S3 (knowledge base documents)
+       └──► Amazon Bedrock (Claude 3 Haiku)
+```
 
 **AWS Accounts:** Two-account AWS Organizations setup
 - `Sandbox`  — application workload
@@ -74,6 +77,8 @@ Build AI-specific detection and response:
 ---
 
 ## Repository Structure
+
+```
 ai-security-lab-aws/
 ├── terraform/
 │   ├── sandbox/          # Phase 1 + 3 application infrastructure
@@ -86,7 +91,8 @@ ai-security-lab-aws/
 ├── red-team/
 │   └── findings.md       # Phase 2 attack findings
 └── runbooks/
-└── ai_incident_response.md
+    └── ai_incident_response.md
+```
 
 ---
 
